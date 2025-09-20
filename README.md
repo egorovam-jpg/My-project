@@ -14,7 +14,7 @@ https://drive.google.com/file/d/1M1-EG2MXn_kv-A-sVe50zwn7D6csOfF1/view?usp=shari
 
 2. Клонируйте репозиторий:
 
-*git clone https://github.com/ваш_репозиторий.git
+*git clone https://github.com/egorovam-jpg/My-project.git
 cd ваш_проект*
 
 3. Создайте виртуальное окружение и активируйте его:
