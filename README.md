@@ -9,36 +9,42 @@ https://drive.google.com/file/d/1M1-EG2MXn_kv-A-sVe50zwn7D6csOfF1/view?usp=shari
 
 Чтобы воспользоваться файлом сделайте следующие шаги:
 
-1. Установите miniconda 
-(для Windows: https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe)
+1. Создайте виртуально окружение:
 
-2. Клонируйте репозиторий:
+conda create -n my_env python=3.13
 
-*git clone https://github.com/egorovam-jpg/My-project.git
-cd ваш_проект*
+pip conda активировать my_env
 
-3. Создайте виртуальное окружение и активируйте его:
-(здесь my_env — название вашего окружения; при необходимости можете сменить)
+2. Установите поэзию
 
-*conda create -n my_env python=3.13 pip*
+пип установи поэзию
 
-*conda activate my_env*
+3. Инициализируйте проект
+  
+поэзия нового my_project
 
-4. Установка Poetry:
+4. Добавьте засисимости
+   
+поэзия добавить jupyterlab pandas matplotlib wget
 
-*pip install poetry*
+poetry install 
 
-5. Инициализация проекта Poetry:
+5. Запустите скрипт
 
-*poetry init*
+python3 data_loader.py
 
-6. Установка зависимостей:
+Структура проекта
 
-*poetry install --no-root*
+ data-engineering/ 
 
-7. Запустите Jupyter Notebook или скрипты:
+├── pyproject.toml 
+# Файл конфигурации Poetry (зависимости и метаданные)
 
-*poetry run jupyter lab*
+├── requirements.txt 
+# Альтернативный файл зависимостей (для пользователей pip)
+
+└── README.md 
+ # Документация по проекту 
 
 # Cкрипт выгрузки файла
 Скрипт прикреплен к проекту: *data_loader.py*
